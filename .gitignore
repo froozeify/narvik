@@ -1,0 +1,11 @@
+# Vitpress build
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# Node dependencies
+node_modules
+
+# Misc
+.DS_Store
+.fleet
+.idea

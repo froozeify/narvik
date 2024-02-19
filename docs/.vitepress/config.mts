@@ -138,5 +138,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/froozeify/narvik' }
     ]
+  },
+  markdown: {
+    lineNumbers: true
   }
 })

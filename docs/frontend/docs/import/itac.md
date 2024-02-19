@@ -28,7 +28,7 @@ Le fichier envoyé doit obligatoirement être au format CSV.
 ## Import des photos
 
 ### Export depuis itac
-Explication pour l'export disponible dans [la documentation du backend](/backend/docs/import/itac#export-depuis-itac)
+Explication pour l'export disponible dans [la documentation du backend](/backend/docs/import/itac#export-depuis-itac-1)
 
 ### Import depuis le site <RoleLevelComponent level="admin" />
 La page est accessible depuis le menu d'administration.

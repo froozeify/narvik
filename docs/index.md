@@ -21,13 +21,13 @@ hero:
 features:
   - title: Gestion des présences
     icon: 📋
-    details: Possiblité d'enregistrer les présences extérieurs (club secondaire, découverte, initiation).
+    details: Possibilité d'enregistrer les présences extérieurs (club secondaire, découverte, initiation).
   - title: Import manuel depuis Itac
     icon: 📝
     details: Possibilité d'importer les membres depuis Itac.
   - title: Import depuis Cerbère
     icon: 📝
-    details: Possiblité de récupérer l'historique de présence enregistré dans Cerbère.
+    details: Possibilité de récupérer l'historique de présence enregistré dans Cerbère.
   - title: Statistiques club
     icon: 📊
     details: >
@@ -38,6 +38,7 @@ features:
   - title: Statistiques individuelle
     icon: 📈
     details: >
+      - Dernier tir de contrôle<br/>
       - Présences <br/>
       - Activités
   - title: Export en CSV - A venir

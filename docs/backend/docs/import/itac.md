@@ -43,6 +43,25 @@ Paramètres requis:
 
 L'import va automatiquement créer/mettre à jour les membres.
 
+## Import des membres club secondaire
+L'import se fait depuis un CSV généré depuis le site itac
+
+### Export depuis itac
+1. Se rendre sur le **Requêteur** : https://itac.pro/Requeteur/Requeteur.aspx
+2. Utiliser le modèle `Adh-2nd-club` et cliquer sur CSV
+3. Si le modèle n'existe pas :
+   1. Créer un nouveau modèle `Cartes Club`  
+      ![](./images/import-donnees/export-itac-2nd-club-1.png)
+   2. Sélectionner toutes les saisons  
+      ![](./images/import-donnees/export-itac-2nd-club-2.png)
+   3. Cocher tout les champs  
+      ![](./images/import-donnees/export-itac-2nd-club-3.png)
+   4. Nommer le fichier `Adh-2nd-club`
+   5. Cliquer sur `Sauvegarder le modèle d'extraction de données`
+   6. Cliquer sur `Extraire les données au format CSV`
+      L'export se télécharge automatiquement et peut prendre un peu de temps.
+      ![](./images/import-donnees/export-itac-2nd-club-4.png)
+
 ## Import des photos
 L'import se fait via l'archive généré depuis le site itac
 

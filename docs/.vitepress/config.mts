@@ -53,6 +53,10 @@ export default defineConfig({
               text: 'Cerbère',
               link: '/backend/docs/import/cerbère'
             },
+            {
+              text: 'Narvik',
+              link: '/backend/docs/import/narvik'
+            },
           ]
         },
         {
@@ -95,6 +99,10 @@ export default defineConfig({
             {
               text: 'Cerbère',
               link: '/frontend/docs/import/cerbère'
+            },
+            {
+              text: 'Narvik',
+              link: '/frontend/docs/import/narvik'
             },
           ]
         },

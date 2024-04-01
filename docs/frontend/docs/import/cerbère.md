@@ -1,5 +1,5 @@
 ---
-next: false
+next: true
 ---
 
 <script setup>

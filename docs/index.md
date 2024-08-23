@@ -48,6 +48,16 @@ features:
     details: >
       - Export des présences <br/>
       - Export des activités - A venir
-
+  - title: Gestion de vente / inventaire
+    icon: 🏷️
+    details: >
+      - Gestion stock avec alerte <br/>
+      - Page de vente avec historique <br/>
+      - Impression des produits en ventes
+  - title: Notification par mail
+    icon: 📧
+    details: >
+      - Mot de passe oublié <br/>
+      - Présence avec une saison non renouvelée - A venir
 ---
 

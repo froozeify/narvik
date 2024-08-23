@@ -11,10 +11,10 @@
     badges.push('Administrateur')
   } else if (props.level === 'supervisor') {
     badges.push('Administrateur')
-    badges.push('Superviseur')
+    badges.push('Superviseur / Permanent')
   } else if (props.level === 'badger') {
     badges.push('Administrateur')
-    badges.push('Superviseur')
+    badges.push('Superviseur / Permanent')
     badges.push('Badgeur')
   }
 
@@ -23,7 +23,7 @@
 
 <template>
   <div class="VPBadge RoleLevelRoot">
-    <Badge v-for="badge in badges" type="warning" :text="badge" />
+    <Badge v-for="badge in badges" :type="badge === 'Administrateur' ? 'danger' : 'tip'" :text="badge" />
   </div>
 </template>
 

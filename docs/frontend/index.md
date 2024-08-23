@@ -27,4 +27,15 @@ features:
         Date du dernier tir de contrôle.
   - title: Interface d'administration
     details: Interface d'administration avec statistiques sur l'utilisation des postes et la présences.
+  - title: Vente
+    details: >
+      - Catégorisation <br/>
+      - Gestion des moyens de paiements <br/>
+      - Historique par vente <br/>
+      - Historique par produit
+  - title: Inventaire
+    details:  >
+      - Catégorisation <br/>
+      - Historique du prix d'achat et de vente <br/>
+      - Alerte stock bas
 ---

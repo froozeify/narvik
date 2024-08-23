@@ -131,6 +131,20 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Point de vente',
+          collapsed: true,
+          items: [
+            {
+              text: 'Inventaire',
+              link: '/frontend/docs/pos/inventaire'
+            },
+            {
+              text: 'Ventes',
+              link: '/frontend/docs/pos/ventes'
+            },
+          ]
+        },
+        {
           text: 'Développement',
           collapsed: true,
           items: [

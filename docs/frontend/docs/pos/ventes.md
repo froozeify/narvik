@@ -16,6 +16,10 @@ Une liste sur 2 colonnes sera générée.
 ![](./images/vente-impression.png)
 
 ## Faire une vente <RoleLevelComponent level="supervisor" />
+1. [Sélection d'un vendeur](#sélection-dun-vendeur)
+2. [Ajout d'un article au panier](#article-présent-dans-la-liste) ou [Ajout d'un article personnalisé au panier](#article-non-existant--prix-personnalisé)
+3. [Finalisation de la vente](#finalisation-de-la-vente)
+
 ![](./images/vente-liste-1.png)
 
 ::: danger Attention

@@ -32,22 +32,22 @@ Celui-ci sera ajouté dans la colonne de droite, le total à payer sera recalcul
 
 ![](./images/vente-liste-2.png)
 
-En cas de besoin, il est possible d'augmenter ou de diminuer la quantité ajoutée au panier en cliquant sur les flêches bleues.
+En cas de besoin, il est possible d'augmenter ou de diminuer la quantité ajoutée au panier en cliquant sur les flèches bleues.
 
 ![](./images/vente-liste-3.png)
 
 Le bouton `Vider le panier` supprimera tous les articles présents dans le panier.
 
-### Article non existant / Prix personalisé
+### Article non existant / Prix personnalisé
 ::: danger Attention
-L'utilisation d'un article personalisé ne modifiera pas l'état des stocks.
+L'utilisation d'un article personnalisé ne modifiera pas l'état des stocks.
 :::
 
-Dans le cas ou l'article ne serait pas présent, ou pour un produit avec tarif dégressif (license prise pendant l'année par exemple).
+Dans le cas où l'article ne serait pas présent, ou pour un produit avec tarif dégressif (licence prise pendant l'année par exemple).
 
-Il est possible de créer un article personalisé.
+Il est possible de créer un article personnalisé.
 
-Pour cela, il suffit de cliquer sur le bouton `+` bleue situé à droite de la barre de recherche.
+Pour cela, il suffit de cliquer sur le bouton `+` bleu situé à droite de la barre de recherche.
 
 ![](./images/vente-liste-4.png)
 

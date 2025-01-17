@@ -4,8 +4,11 @@ layout: home
 
 hero:
   name: "Narvik"
-  text: "Logiciel de gestion pour club de tir"
-  tagline: "Webapp composée d'un backend et d'un frontend"
+  text: "Logiciel de gestion pour club"
+  tagline: "Webapp composée d'un backend et d'un frontend. Avec support des spécificités liée au Tir Sportif."
+  image:
+    src: /logo-narvik-white.png
+    alt: Narvik
   actions:
     - theme: brand
       text: Backend (gestion des données)
@@ -40,7 +43,7 @@ features:
   - title: Statistiques individuelle
     icon: 📈
     details: >
-      - Dernier tir de contrôle<br/>
+      - Dernière activité contrôlée<br/>
       - Présences <br/>
       - Activités
   - title: Export en CSV

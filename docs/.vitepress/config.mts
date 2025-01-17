@@ -3,9 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Narvik",
-  description: "Logiciel de gestion pour club de tir",
+  description: "Logiciel de gestion pour club",
+  head: [
+    [ 'link', { rel: 'icon', href: '/favicon.ico' } ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo-narvik-white--cropped.png',
+
     search: {
       provider: 'local'
     },

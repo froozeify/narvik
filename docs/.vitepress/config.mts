@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Narvik",
-  description: "Logiciel de gestion pour club",
+  description: "S de gestion pour club",
   head: [
     [ 'link', { rel: 'icon', href: '/favicon.ico' } ]
   ],
@@ -90,6 +90,19 @@ export default defineConfig({
             {
               text: 'Manuelle',
               link: '/frontend/docs/installation/02.manuelle'
+            }
+          ]
+        },
+        {
+          text: 'Premiers pas',
+          items: [
+            {
+              text: 'Club',
+              link: '/frontend/docs/premiers-pas/club'
+            },
+            {
+              text: 'Utilisateur',
+              link: '/frontend/docs/premiers-pas/utilisateur'
             }
           ]
         },

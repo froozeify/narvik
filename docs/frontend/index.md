@@ -5,10 +5,15 @@ layout: home
 hero:
   name: "Narvik - Frontend"
   text: "Interface utilisateur"
-  tagline: Interface testée avec le backend
   actions:
     - theme: brand
-      text: Démarrer
+      text: Mise en route club
+      link: ./docs/premiers-pas/club
+    - theme: brand
+      text: Guide utilisateur
+      link: ./docs/premiers-pas/utilisateur
+    - theme: alt
+      text: Installation
       link: ./docs/installation/01.prerequis
     - theme: alt
       text: Participer au développement

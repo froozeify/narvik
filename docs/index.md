@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "Narvik"
   text: "Logiciel de gestion pour club"
-  tagline: "Webapp composée d'un backend et d'un frontend. Avec support des spécificités liée au Tir Sportif."
+  tagline: "Plateforme composée d'un backend et d'un frontend. Avec support des spécificités liée au Tir Sportif."
   image:
     src: /logo-narvik-white.png
     alt: Narvik
   actions:
     - theme: brand
-      text: Backend (gestion des données)
-      link: /backend/index
-    - theme: brand
-      text: Frontend (interface utilisateur)
+      text: Documentation utilisateur
       link: /frontend/index
+    - theme: brand
+      text: Documentation technique
+      link: /backend/index
     - theme: alt
       text: Github
       link: https://github.com/froozeify/narvik
@@ -50,7 +50,7 @@ features:
     icon: 📁
     details: >
       - Export des présences <br/>
-      - Export des activités - A venir
+      - Export des activités
   - title: Gestion de vente / inventaire
     icon: 🏷️
     details: >
@@ -62,5 +62,6 @@ features:
     details: >
       - Mot de passe oublié <br/>
       - Présence avec une saison non renouvelée - A venir
+      - Certificat médical expiré - A venir
 ---
 

@@ -61,23 +61,6 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Import des données',
-          items: [
-            {
-              text: 'Itac',
-              link: '/backend/docs/import/itac'
-            },
-            {
-              text: 'Cerbère',
-              link: '/backend/docs/import/cerbère'
-            },
-            {
-              text: 'Narvik',
-              link: '/backend/docs/import/narvik'
-            },
-          ]
-        },
-        {
           text: 'Développement',
           collapsed: true,
           items: [
@@ -112,11 +95,11 @@ export default defineConfig({
             },
             {
               text: 'Cerbère',
-              link: '/frontend/docs/import/cerbère'
+              link: '/frontend/docs/import/cerbere'
             },
             {
-              text: 'Narvik',
-              link: '/frontend/docs/import/narvik'
+              text: 'Narvik - présences',
+              link: '/frontend/docs/import/narvik-presences'
             },
           ]
         },

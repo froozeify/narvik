@@ -18,10 +18,6 @@ hero:
     - theme: alt
       text: Site
       link: https://narvik.app
-    - theme: alt
-      text: GitHub
-      link: https://github.com/froozeify/narvik-front
-      target: _blank
 
 features:
   - title: Enregistrement des présences des membres

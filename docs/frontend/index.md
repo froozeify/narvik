@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Narvik - Frontend"
-  text: "Interface utilisateur"
+  name: "Narvik - Webapp"
+  text: "Utilisation du site"
   actions:
     - theme: brand
       text: Mise en route club
@@ -13,11 +13,11 @@ hero:
       text: Guide utilisateur
       link: ./premiers-pas/utilisateur
     - theme: alt
-      text: Installation
-      link: ./docs/installation/01.prerequis
-    - theme: alt
       text: Participer au développement
       link: ./dev/participer
+    - theme: alt
+      text: Site
+      link: https://narvik.app
     - theme: alt
       text: GitHub
       link: https://github.com/froozeify/narvik-front

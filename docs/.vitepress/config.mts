@@ -2,14 +2,28 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Narvik",
-  description: "S de gestion pour club",
+  title: "Documentation Narvik",
+  description: "Plateforme de gestion pour club",
+  lang: 'fr',
   head: [
     [ 'link', { rel: 'icon', href: '/favicon.ico' } ]
   ],
   themeConfig: {
+    siteTitle: 'Narvik',
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo-narvik-white--cropped.png',
+    logo: {
+      light: '/logo-nk.png',
+      dark: '/logo-nk-white.png'
+    },
+
+    outline: {
+      label: 'Dans cette page'
+    },
+
+    docFooter: {
+      prev: 'Précédent',
+      next: 'Suivant'
+    },
 
     search: {
       provider: 'local'
@@ -17,8 +31,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Guide', link: '/guide/index' },
-      { text: 'Backend', link: '/backend/index' },
-      { text: 'Frontend', link: '/frontend/index' }
+      { text: 'Documentation site', link: '/frontend/index' }
     ],
 
     sidebar: {
@@ -76,23 +89,6 @@ export default defineConfig({
         }
       ],
       '/frontend/': [
-        {
-          text: 'Installation',
-          items: [
-            {
-              text: 'Prérequis',
-              link: '/frontend/docs/installation/01.prerequis'
-            },
-            {
-              text: 'Docker (recommandée)',
-              link: '/frontend/docs/installation/02.docker'
-            },
-            {
-              text: 'Manuelle',
-              link: '/frontend/docs/installation/02.manuelle'
-            }
-          ]
-        },
         {
           text: 'Premiers pas',
           items: [
@@ -171,7 +167,25 @@ export default defineConfig({
               link: '/frontend/dev/participer'
             }
           ]
-        }
+        },
+        {
+          text: 'Installation',
+          collapsed: true,
+          items: [
+            {
+              text: 'Prérequis',
+              link: '/frontend/docs/installation/01.prerequis'
+            },
+            {
+              text: 'Docker (recommandée)',
+              link: '/frontend/docs/installation/02.docker'
+            },
+            {
+              text: 'Manuelle',
+              link: '/frontend/docs/installation/02.manuelle'
+            }
+          ]
+        },
       ],
     },
 

@@ -1,6 +1,10 @@
 # README
 
-Documentation visible en ligne ici : https://narvik.pages.dev/
+Site du projet : https://about.narvik.app
+
+Documentation : https://docs.narvik.app
+
+## Projets github
 
 Frontend : https://github.com/froozeify/narvik-front
 

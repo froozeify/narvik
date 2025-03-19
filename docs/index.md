@@ -20,6 +20,10 @@ hero:
       text: Github
       link: https://github.com/froozeify/narvik
       target: _blank
+    - theme: alt
+      text: À propos
+      link: https://about.narvik.app
+      target: _blank
 
 features:
   - title: Gestion des présences
@@ -50,18 +54,18 @@ features:
     icon: 📁
     details: >
       - Export des présences <br/>
-      - Export des activités
+      - Export des activités <br/>
+      - Export des ventes
   - title: Gestion de vente / inventaire
     icon: 🏷️
     details: >
       - Gestion stock avec alerte <br/>
       - Page de vente avec historique <br/>
       - Impression des produits en ventes
-  - title: Notification par mail
-    icon: 📧
+  - title: Emails / Notifications
+    icon: 🔔
     details: >
       - Mot de passe oublié <br/>
-      - Présence avec une saison non renouvelée - A venir
-      - Certificat médical expiré - A venir
+      - Présence avec une saison non renouvelée <br/>
+      - Certificat médical expiré
 ---
-

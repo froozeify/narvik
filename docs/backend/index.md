@@ -25,6 +25,6 @@ features:
     details: 
         Le projet est fait pour tourner sur un Raspberry Pi.<br/>
         Fonctionne avec 500 Mo de RAM.
-  - title: Authentification JWT
+  - title: Authentification OAuth
     details: Utilisé avec un Refresh Token afin de permettre à l'utilisateur de rester connecté sans avoir à se reconnecter manuellement.
 ---

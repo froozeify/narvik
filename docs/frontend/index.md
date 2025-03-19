@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Mise en route club
-      link: ./docs/premiers-pas/club
+      link: ./premiers-pas/club
     - theme: brand
       text: Guide utilisateur
-      link: ./docs/premiers-pas/utilisateur
+      link: ./premiers-pas/utilisateur
     - theme: alt
       text: Installation
       link: ./docs/installation/01.prerequis

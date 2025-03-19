@@ -98,11 +98,11 @@ export default defineConfig({
           items: [
             {
               text: 'Club',
-              link: '/frontend/docs/premiers-pas/club'
+              link: '/frontend/premiers-pas/club'
             },
             {
               text: 'Utilisateur',
-              link: '/frontend/docs/premiers-pas/utilisateur'
+              link: '/frontend/premiers-pas/utilisateur'
             }
           ]
         },
@@ -177,7 +177,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/froozeify/narvik' }
-    ]
+    ],
+
+    footer: {
+      message: '<a href="https://about.narvik.app" target="_blank">À propos de Narvik.</a>',
+      copyright: '© 2024 - 2025. Tous droits réservés'
+    }
   },
   markdown: {
     lineNumbers: true

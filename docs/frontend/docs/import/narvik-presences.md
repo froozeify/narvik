@@ -8,7 +8,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 # Import des présences <RoleLevelComponent level="admin" />
 
-L'import se fait depuis un CSV généré depuis le site itac
+L'import se fait depuis un CSV généré depuis le site.
 
 - [Export](#export)
 - [Import](#import)

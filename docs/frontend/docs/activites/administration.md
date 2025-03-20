@@ -11,10 +11,6 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 
 Actions possibles :
 - Changement du nom
-  - Clic sur le text
 - Désactivation d'une activité
 - Migration d'une activité (possible seulement si l'activité est désactivée)
 - Suppression d'une activité (possible seulement si l'activité est désactivée)
-
-
-

@@ -1,0 +1,21 @@
+---
+prev: false
+next: false
+---
+
+# Imports actuellement supportés
+
+## Membres
+L'import de masses des membres est pour le moment seulement possible sous le format CSV.
+
+### Tir sportif
+- [Import depuis un CSV exporté au format ITAC](/frontend/docs/import/itac)
+
+## Présences
+- [Import / Export depuis Narvik](/frontend/docs/import/narvik-presences)
+
+### Tir sportif
+- [Import depuis Cerbère](/frontend/docs/import/cerbere)
+
+## Point de vente
+- [Import / Export depuis Narvik](/frontend/docs/import/narvik-pos)

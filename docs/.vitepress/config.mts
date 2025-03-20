@@ -95,20 +95,28 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Import des données',
+          text: 'Import / Export',
           collapsed: true,
           items: [
             {
-              text: 'Itac',
+              text: 'Imports supportés',
+              link: '/frontend/docs/import'
+            },
+            {
+              text: 'FFTIR - Itac',
               link: '/frontend/docs/import/itac'
             },
             {
-              text: 'Cerbère',
+              text: 'FFTIR - Cerbère',
               link: '/frontend/docs/import/cerbere'
             },
             {
-              text: 'Narvik - présences',
+              text: 'Narvik - Présences',
               link: '/frontend/docs/import/narvik-presences'
+            },
+            {
+              text: 'Narvik - Point de vente',
+              link: '/frontend/docs/import/narvik-pos'
             },
           ]
         },

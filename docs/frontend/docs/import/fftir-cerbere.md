@@ -9,7 +9,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
 # Import des données Cerbère <RoleLevelComponent level="admin" />
 **L'import ne créé aucun utilisateur**.
 
-Il est fortement conseillé de faire un [Import des utilisateurs](itac) avant.   
+Il est fortement conseillé de faire un [Import des utilisateurs](fftir-itac) avant.   
 Sans cela certaines présences pourrait ne pas être importé.
 
 ## Export depuis Cerbère
@@ -37,7 +37,7 @@ Bien attendre que la liste à fini de se remplir (peut prendre quelques dizaine 
 
 ## Import depuis le site <RoleLevelComponent level="admin" />
 
-Avant d'effectuer l'import, il est fortement recommander d'effecteur un [import des membres](itac.md#import-des-membres).
+Avant d'effectuer l'import, il est fortement recommander d'effecteur un [import des membres](fftir-itac#import-des-membres).
 
 L'import est disponible à l'adresse suivante : `<site>/admin/imports/cerbere`
 

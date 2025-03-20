@@ -104,11 +104,11 @@ export default defineConfig({
             },
             {
               text: 'FFTIR - Itac',
-              link: '/frontend/docs/import/itac'
+              link: '/frontend/docs/import/fftir-itac'
             },
             {
               text: 'FFTIR - Cerbère',
-              link: '/frontend/docs/import/cerbere'
+              link: '/frontend/docs/import/fftir-cerbere'
             },
             {
               text: 'Narvik - Présences',

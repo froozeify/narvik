@@ -17,7 +17,7 @@ import RoleLevelComponent from '../../../components/RoleLevelComponent.vue'
   - Affichage en rouge lorsque le certificat médical est expiré.
 
 ## Connexion en mode badgeuse/pointeuse
-Afin de simplifier la gestion des mots de passe, il existe un compte spécifique pour l'ordinatateur/tablette accessible à tout le monde et qui sert au pointage (appelé ici badgeuse).
+Afin de simplifier la gestion des mots de passe, il existe un compte spécifique pour l'ordinateur/tablette accessible à tout le monde et qui sert au pointage (appelé ici badgeuse).
 
 Il s'agit d'une connexion sans mot de passe.
 

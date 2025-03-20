@@ -27,7 +27,7 @@ Afin de pouvoir effectuer une vente un vendeur doit être sélectionné.
 :::
 
 ### Sélection d'un vendeur
-La liste affiche toutes les personnes ayant le rôle permanent ou administrateur.
+La liste affiche toutes les personnes ayant le rôle bénévole ou administrateur.
 
 ### Article présent dans la liste
 Pour ajouter le produit au panier, il suffit de cliquer sur l'icône de caddie bleue situé toute à droite du produit.

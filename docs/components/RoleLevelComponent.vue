@@ -11,10 +11,10 @@
     badges.push('Administrateur')
   } else if (props.level === 'supervisor') {
     badges.push('Administrateur')
-    badges.push('Superviseur / Permanent')
+    badges.push('Superviseur / Bénévole')
   } else if (props.level === 'badger') {
     badges.push('Administrateur')
-    badges.push('Superviseur / Permanent')
+    badges.push('Superviseur / Bénévole')
     badges.push('Badgeur')
   }
 

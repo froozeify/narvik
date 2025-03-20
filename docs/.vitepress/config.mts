@@ -8,9 +8,14 @@ export default defineConfig({
   head: [
     [ 'link', { rel: 'icon', href: '/favicon.ico' } ]
   ],
+  sitemap: {
+    hostname: 'https://docs.narvik.app'
+  },
+  lastUpdated: true,
+
+  // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     siteTitle: 'Narvik',
-    // https://vitepress.dev/reference/default-theme-config
     logo: {
       light: '/logo-nk.png',
       dark: '/logo-nk-white.png'
@@ -23,6 +28,10 @@ export default defineConfig({
     docFooter: {
       prev: 'Précédent',
       next: 'Suivant'
+    },
+    lastUpdated: {
+      text: 'Dernière mise à jour ',
+      formatOptions: {} // Empty so time is not displayed
     },
 
     search: {
